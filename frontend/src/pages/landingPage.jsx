@@ -45,11 +45,10 @@ function LandingPage() {
                     <ul className="flex justify-end p-4">
                         <li>
                             <button type="button" onClick={() => setIsVisible(true)} aria-label="Share" className="focus:outline-none">
-                                <img className="size-7" src={share} alt="share-the-link" />
+                                <img className="size-9" src={share} alt="share-the-link" />
                             </button>
                         </li>
                     </ul>
-
                 </nav>
 
                 <div className="">
@@ -57,7 +56,7 @@ function LandingPage() {
                         <div className="fixed inset-0 flex items-start justify-center z-50 pt-20" role="dialog" aria-modal="true" onClick={() => setIsVisible(false)}>
                             <section className="bg-[#2c2c2c] flex flex-col justify-center items-center border rounded-2xl w-80 p-4 shadow-lg" onClick={(e) => e.stopPropagation()}>
                                 <div className="w-full flex justify-between items-center mb-2">
-                                    <span className="text-white text-sm font-bold">Share With Your Friends!</span>
+                                    <span className="text-white text-sm font-bold">Partager!</span>
                                     <button type="button" aria-label="Close share" onClick={() => setIsVisible(false)} className="p-1 rounded-full hover:bg-white/10 focus:outline-none">
                                         <span className="block w-3 h-3 bg-white rounded-full"></span>
                                     </button>
@@ -70,16 +69,16 @@ function LandingPage() {
                 </div>
 
             </header>
-            <main className="flex flex-col justify-center items-center h-screen">
-                <img className="size-30 filter drop-shadow-lg drop-shadow-pink-500/50" src={photo} alt="photo!" />
-                <span className="font-bold mt-4 ">Anass Errachdi</span>
-                <span >dwat l3a9a kolchi kayzmat!</span>
+            <main className="flex flex-col justify-center items-center min-h-screen">
+                <img className="size-45 filter drop-shadow-lg drop-shadow-pink-500/50" src={photo} alt="photo!" />
+                <span className="font-bold mt-4 text-2xl ">Anass Errachdi</span>
+                <span className="text-lg">dwat l3a9a kolchi kayzmat!</span>
                 <div>
-                    <ul className="flex space-x-2 mt-1.5">
-                        <li><a href="https://www.instagram.com/mrcompany7?igsh=MTN6NjRjc3lkaHBpNQ%3D%3D&utm_source=qr"><img src={instagram} alt="instagram"/></a></li>
-                        <li><a href="wa.me/212675811212"><img src={whatsapp} alt="whatsapp"/></a></li>
-                        <li><a href="https://www.tiktok.com/@tkinter777?_r=1&_t=ZS-940lesTBqbK"><img src={tiktok} alt="tiktok"/></a></li>
-                        <li><a href="https://snapchat.com/t/u99wAqz0"><img src={snapchat} alt="snapchat"/></a></li>
+                    <ul className="flex space-x-3 mt-2 mb-50">
+                        <li><a href="https://www.instagram.com/mrcompany7?igsh=MTN6NjRjc3lkaHBpNQ%3D%3D&utm_source=qr"><img className="size-6"  src={instagram} alt="instagram"/></a></li>
+                        <li><a href="wa.me/212675811212"><img className="size-6" src={whatsapp} alt="whatsapp"/></a></li>
+                        <li><a href="https://www.tiktok.com/@tkinter777?_r=1&_t=ZS-940lesTBqbK"><img className="size-6"  src={tiktok} alt="tiktok"/></a></li>
+                        <li><a href="https://snapchat.com/t/u99wAqz0"><img className="size-6"  src={snapchat} alt="snapchat"/></a></li>
                     </ul>
                 </div>
             </main>
