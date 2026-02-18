@@ -76,7 +76,7 @@ function LandingPage() {
                 <div>
                     <ul className="flex space-x-3 mt-2 mb-50">
                         <li><a href="https://www.instagram.com/mrcompany7?igsh=MTN6NjRjc3lkaHBpNQ%3D%3D&utm_source=qr"><img className="size-6"  src={instagram} alt="instagram"/></a></li>
-                        <li><a href="wa.me/212675811212"><img className="size-6" src={whatsapp} alt="whatsapp"/></a></li>
+                        <li><a href="https://wa.me/212675811212"><img className="size-6" src={whatsapp} alt="whatsapp"/></a></li>
                         <li><a href="https://www.tiktok.com/@tkinter777?_r=1&_t=ZS-940lesTBqbK"><img className="size-6"  src={tiktok} alt="tiktok"/></a></li>
                         <li><a href="https://snapchat.com/t/u99wAqz0"><img className="size-6"  src={snapchat} alt="snapchat"/></a></li>
                     </ul>
