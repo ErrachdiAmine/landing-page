@@ -20,7 +20,7 @@ function LandingPage() {
     const inputRef = useRef(null);
 
     const copyLink = () => {
-        const text = "http://localhost:5173/";
+        const text = "https://errachdi.vercel.app/";
 
         navigator.clipboard.writeText(text).then(() => {
             setMessage("Link copied successfully!");
