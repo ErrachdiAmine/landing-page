@@ -1,9 +1,8 @@
 import React, {useState, useEffect, useRef } from "react";
 import photo from '../assets/profile.jpg'
-import tiktok from '../assets/tiktok.svg'
 import whatsapp from '../assets/whatsapp.svg'
-import snapchat from '../assets/snapchat.svg'
-import instagram from '../assets/instagram.svg'
+import github from '../assets/github.svg'
+import portfolio from '../assets/portfolio.png'
 import share from '../assets/send-arrow-up.svg'
 
 
@@ -31,9 +30,6 @@ function LandingPage() {
             setTimeout(() => setMessage(''), 2000);
         });
     };
-
-
-        
 
     
 
@@ -71,14 +67,13 @@ function LandingPage() {
             </header>
             <main className="flex flex-col justify-center items-center min-h-screen">
                 <img className="size-45 filter drop-shadow-lg drop-shadow-pink-500/50" src={photo} alt="photo!" />
-                <span className="font-bold mt-4 text-2xl ">Anass Errachdi</span>
-                <span className="text-lg">dwat l3a9a kolchi kayzmat!</span>
+                <span className="font-bold mt-4 text-2xl ">Amine Errachdi</span>
+                <span className="text-lg">Full-Stack Developer | English Major</span>
                 <div>
                     <ul className="flex space-x-3 mt-2 mb-50">
-                        <li><a href="https://www.instagram.com/mrcompany7?igsh=MTN6NjRjc3lkaHBpNQ%3D%3D&utm_source=qr"><img className="size-6"  src={instagram} alt="instagram"/></a></li>
-                        <li><a href="https://wa.me/212675811212"><img className="size-6" src={whatsapp} alt="whatsapp"/></a></li>
-                        <li><a href="https://www.tiktok.com/@tkinter777?_r=1&_t=ZS-940lesTBqbK"><img className="size-6"  src={tiktok} alt="tiktok"/></a></li>
-                        <li><a href="https://snapchat.com/t/u99wAqz0"><img className="size-6"  src={snapchat} alt="snapchat"/></a></li>
+                        <li><a href="https://github.com/ErrachdiAmine"><img className="size-6"  src={github} alt="github"/></a></li>
+                        <li><a href="https://whooami.vercel.app/"><img className="size-6"  src={portfolio} alt="portfolio"/></a></li>
+                        <li><a href="https://wa.me/212675806074"><img className="size-6" src={whatsapp} alt="contact"/></a></li>
                     </ul>
                 </div>
             </main>
